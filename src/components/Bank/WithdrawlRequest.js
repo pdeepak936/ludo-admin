@@ -111,14 +111,14 @@ function WithdrawalRequest() {
                           </thead>
                           <tbody>
                             {requestData.map((request) => (
-                              <tr key={request.id}>
+                              <tr key={request?._id}>
                                 <td
                                   style={{
                                     padding: "1.5rem",
                                     paddingTop: "1.5rem",
                                   }}
                                 >
-                                  +91 {request.phoneNumber}
+                                  +91 {request?.phoneNumber}
                                 </td>
                                 <td
                                   style={{
@@ -126,7 +126,7 @@ function WithdrawalRequest() {
                                     paddingTop: "1.5rem",
                                   }}
                                 >
-                                  {request.balance}
+                                  {request?.balance}
                                 </td>
                                 <td
                                   style={{
@@ -134,7 +134,7 @@ function WithdrawalRequest() {
                                     paddingTop: "1.5rem",
                                   }}
                                 >
-                                  {request.amount}
+                                  {request?.amount}
                                 </td>
                                 <td
                                   style={{
@@ -144,7 +144,7 @@ function WithdrawalRequest() {
                                 >
                                   <Link
                                     onClick={() =>
-                                      handleRejectWithdrawl(request._id)
+                                      handleRejectWithdrawl(request?._id)
                                     }
                                     className="btn btn-danger ml-3 mr-3"
                                     // style={{
@@ -162,8 +162,8 @@ function WithdrawalRequest() {
                                   }}
                                 >
                                   <Link
-                                    to={`/withdrawal-requests-detail/${request.id}`}
-                                    className="btn btn-success"
+                                    to={`/withdrawal-requests-detail/${request?._id}`}
+                                    className="btn"
                                     style={{
                                       backgroundColor: "#FFD600",
                                       color: "#000",

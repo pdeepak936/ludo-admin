@@ -18,8 +18,8 @@ function WithdrawalRequest() {
       try {
         const result = await userWithdrawlRequestByWithdrawlID(withdrawlID);
         const data = JSON.parse(result);
-        console.log(data.withdrawalRequest);
-        setRequestData(data.withdrawalRequest);
+        console.log(data.transaction);
+        setRequestData(data.transaction);
       } catch (error) {
         // Handle errors
       }

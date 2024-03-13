@@ -105,8 +105,8 @@ function ListOfAllNotification() {
                                                         type="button"
                                                         className="btn"
                                                         style={{
-                                                            backgroundColor: "#BE3431",
-                                                            color: "#fff",
+                                                            backgroundColor: "#FFD600",
+                                                            color: "#000",
                                                         }}
                                                         onClick={() => handleDelete(notification.message)}
                                                     >

@@ -71,9 +71,10 @@ function AllUserNotification() {
 
                 <div className="col-lg-3">
                   <Link
-                    className="text-white btn btn-primary btn-lg justify-content-end"
+                    className="btn btn-lg justify-content-end"
                     to={`/list-of-all-notification`}
                     state={{ marginLeft: "50%" }}
+                    style={{backgroundColor:"#FFD600", color:"#000", fontWeight:"600"}}
                   >
                     List Of All Notification
                   </Link>
@@ -150,8 +151,8 @@ function AllUserNotification() {
                                   type="submit"
                                   className="btn btn-lg"
                                   style={{
-                                    backgroundColor: "#924ACD",
-                                    color: "#fff",
+                                    backgroundColor: "#FFD600",
+                                    color: "#000",
                                   }}
                                 >
                                   Proceed

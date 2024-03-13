@@ -78,7 +78,7 @@ function LoginPage() {
         </div>
         {inCorrect == true ? <><p style={{ color: "red" }}>Email or Password not match</p></> : <></>}
         <div className="text-lg-start mt-4 pt-2">
-          <button onClick={navigateToOtherPage} className="btn btn-lg" style={{backgroundColor:"#D54EC8", color:"white"}}>Proceed</button>
+          <button onClick={navigateToOtherPage} className="btn btn-lg" style={{backgroundColor:"#FFD600", color:"#000", fontWeight:"600"}}>Proceed</button>
         </div>
       </form>
     </div>

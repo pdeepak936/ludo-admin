@@ -10,8 +10,8 @@ function WithdrawalRequest() {
     const fetchDataFromApi = async () => {
       try {
         const result = await userWithdrawlRequest();
-        console.log(result.requests);
-        setRequestData(result.requests);
+        console.log(result.withdrawlRequests);
+        setRequestData(result.withdrawlRequests);
       } catch (error) {
         // Handle errors
       }
@@ -144,7 +144,7 @@ function WithdrawalRequest() {
                                 >
                                   <Link
                                     onClick={() =>
-                                      handleRejectWithdrawl(requestData?._id)
+                                      handleRejectWithdrawl(request._id)
                                     }
                                     className="btn btn-danger ml-3 mr-3"
                                     // style={{
@@ -165,8 +165,8 @@ function WithdrawalRequest() {
                                     to={`/withdrawal-requests-detail/${request.id}`}
                                     className="btn btn-success"
                                     style={{
-                                      backgroundColor: "#00A233",
-                                      color: "#fff",
+                                      backgroundColor: "#FFD600",
+                                      color: "#000",
                                     }}
                                   >
                                     Approve

@@ -69,8 +69,8 @@ function WithdrawalRequest() {
                                 className="btn"
                                 onClick={() => handleLogin(request._id)}
                                 style={{
-                                  backgroundColor: "#00A233",
-                                  color: "#fff",
+                                  backgroundColor: "#FFD600",
+                                  color: "#000",
                                 }}
                               >
                                 Approved

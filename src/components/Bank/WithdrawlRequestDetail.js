@@ -262,8 +262,8 @@ function WithdrawalRequest() {
                                       to="/withdrawal-requests"
                                       className="btn mr-4"
                                       style={{
-                                        backgroundColor: "#00A233",
-                                        color: "#fff",
+                                        backgroundColor: "#FFD600",
+                                        color: "#000",
                                       }}
                                     >
                                       Approve
@@ -293,8 +293,8 @@ function WithdrawalRequest() {
                                       to="/withdrawal-requests"
                                       className="btn disabled"
                                       style={{
-                                        backgroundColor: "#00A233",
-                                        color: "#fff",
+                                        backgroundColor: "#FFD600",
+                                        color: "#000",
                                       }}
                                     >
                                       Approved
@@ -324,8 +324,8 @@ function WithdrawalRequest() {
                                       to="/withdrawal-requests"
                                       className="btn"
                                       style={{
-                                        backgroundColor: "#00A233",
-                                        color: "#fff",
+                                        backgroundColor: "#FFD600",
+                                        color: "#000",
                                       }}
                                     >
                                       Approve

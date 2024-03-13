@@ -143,8 +143,8 @@ function NotificationByPhonezNo() {
                     </div>
                     <div className="text-lg-start mt-4 pt-2">
                       <button type="submit" className="btn btn-lg" style={{
-                                    backgroundColor: "#924ACD",
-                                    color: "#fff",
+                                    backgroundColor: "#FFD600",
+                                    color: "#000",
                                   }}>
                         Proceed
                       </button>

@@ -135,7 +135,7 @@ function Sidebar() {
                 </li>
                 {/* <!-- Divider --> */}
                 <hr className="sidebar-divider d-none d-md-block" />
-                <button type="button" class="btn btn-secondary mx-2" onClick={navigateToOtherPage} style={{marginTop:"300px"}}>Log Out</button>
+                <button type="button" class="btn mx-2" onClick={navigateToOtherPage} style={{marginTop:"300px", backgroundColor:"#FFD600", color:"#000", fontWeight:"600"}}>Log Out</button>
             </ul>
             
            
